@@ -1,0 +1,72 @@
+/*!
+ * Global resets
+ */
+*,
+*:before,
+*:after
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    font-size: 100%;
+    letter-spacing: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    text-transform: none;
+    background: transparent;
+    text-shadow: none;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    background-clip: padding-box;
+}
+
+/**
+ * Document and base fonts
+ */
+html, body { min-width: 312px; height: 100%; overflow: hidden; -webkit-tap-highlight-color: rgba(0,0,0,0); }
+body { background: #f0f0ff url( '../images/polygons.png' ); color: #30393f; font-size: 16px; line-height: 24px; font-weight: 500; }
+body, body * { font-family: "Bree Serif", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; }
+
+/**
+ * Block types
+ */
+article, aside, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section, main, summary, div, h1, h2, h3, h4, h5, h6, hr,
+p, ol, ul, pre, form { display: block; }
+
+/**
+ * Inner container
+ */
+#container
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    text-align: center;
+    transform: translateX( -50% ) translateY( -50% );
+}
+#container img
+{
+    display: block;
+    overflow: hidden;
+}
+#container p
+{
+    margin: 0 0 20px 0;
+}
+#container hr
+{
+    margin: 0 0 20px 0;
+    border-bottom: 1px dashed #ccc;
+}
+#container span
+{
+    font-size: small;
+    color: #90989f;
+}
+
+

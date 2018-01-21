@@ -1,0 +1,9 @@
+{
+  "name": "loudfusion-site",
+  "version": "1.0.0",
+  "description": "Main loudfusion.com project",
+  "author": "Rainner Lins, rainnerlins.com, @raintek_",
+  "license": "NONE",
+  "dependencies": {},
+  "devDependencies": {}
+}
